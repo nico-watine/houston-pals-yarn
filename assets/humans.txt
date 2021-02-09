@@ -1,76 +1,58 @@
-# --------------------------------------------------------
-# |            Hello savvy Internet wanderer!            |
-# --------------------------------------------------------
+Hello savvy Internet wanderer!
 
 This site is a Studio N Creation
-https://studioncreations.com
 
-Coded with care and powered by HTML5 for a better web
-
-
-
-# --------------------------------------
-# |            Contact Info            |
-# --------------------------------------
-
-Project Lead:
-  Nico Watine
-  https://nicowatine.me
-  nico@studioncreations.com
+Coded with <3 and powered by HTML5 for a better web
 
 
 
-# ---------------------------------------
-# |            Site Colophon            |
-# ---------------------------------------
 
-Standards:
-  HTML5
+================
+
+Need a website? :: contact@studioncreations.com
+Get in touch with Nico :: nico.w@tine.rocks
+
+================
+
+/* SITE COLOPHON */
+Standards: 
+  Semantic HTML5 
   CSS3 pre-processed via SASS
 
-Components:
-  Foundation 6 for Sites
-  jQuery
+Components: 
+  Foundation 6 for Sites ADVANCED TEMPLATE
 
-Software:
-  Sublime Text 3
-  CodeKit 3
-  Sketch App
-  MAMP
+Software: 
+  Sublime Text
+  CodeKit
+  Sketch 3
 
+What is this rambling file??
+humanstxt.org
 
-
-# ------------------------------------------------------
-# |            What is this rambling file??            |
-# ------------------------------------------------------
-
-http://humanstxt.org
+================
 
 
-
-================================
-
-
-                    ++++++++
-                 ++++++++++++
-                +++++++++++++
-                   .+++++++++
-                    +++++++++
-                    +++++++++
-        ,+++++      +++++++++
-     +++++++++++    +++++++++
-    +++++++++++++   +++++++++
-     ++++++++++++++ +++++++++
-     ++++++++++++++++++++++++
-     +++++++++++++++++++++++++
-     +++++++++++++++++++++++++
-     +++++++++++++++++++++++++
-    ++++++++++++++++++++++++++
-    +++++++++  +++++++++++++++
-   +++++++++     +++++++++++++,
-   ++++++         +++++++++++++
-     +              +++++++++.
-                     ++++++
+                    ++++++++          
+                 ++++++++++++         
+                +++++++++++++         
+                   .+++++++++         
+                    +++++++++         
+                    +++++++++         
+        ,+++++      +++++++++         
+     +++++++++++    +++++++++         
+    +++++++++++++   +++++++++         
+     ++++++++++++++ +++++++++         
+     ++++++++++++++++++++++++         
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+     +++++++++++++++++++++++++        
+    ++++++++++++++++++++++++++        
+    +++++++++  +++++++++++++++        
+   +++++++++     +++++++++++++,       
+   ++++++         +++++++++++++       
+     +              +++++++++.        
+                     ++++++           
                       .+~
 
    WWW . STUDIO N CREATIONS . COM

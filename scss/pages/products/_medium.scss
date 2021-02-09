@@ -1,0 +1,95 @@
+
+@include breakpoint(medium) {
+	body#products {
+		.row.page-intro {
+			padding: rem-calc(40) 0;
+		}
+
+		section.wide#product-definitions {
+
+			.product-block {
+
+				.description {
+					h2 {
+						margin: 0;
+
+						@include breakpoint(860 down) {
+							font-size: rem-calc(30);
+						}
+					}
+
+					h3 {
+						margin-bottom: rem-calc(16);
+
+						@include breakpoint(860 down) {
+							font-size: rem-calc(26);
+						}
+					}
+
+					p {
+						font-size: rem-calc(20);
+						line-height: 1.4;
+
+						@include breakpoint(860 down) {
+							font-size: rem-calc(18);
+						}
+					}
+				}
+
+				.reasons {
+					p {
+						font-size: rem-calc(20);
+						line-height: 1.4;
+						margin-bottom: rem-calc(8);
+
+						@include breakpoint(860 down) {
+							font-size: rem-calc(18);
+						}
+					}
+
+					ul {
+						font-size: rem-calc(20);
+						line-height: 1.4;
+						padding-left: rem-calc(10);
+
+						@include breakpoint(860 down) {
+							font-size: rem-calc(18);
+						}
+					}
+				}
+			}
+		}
+
+		section#animal-diversity {
+			padding: rem-calc(40) 0;
+
+			.section-title {
+				margin-bottom: rem-calc(30);
+			}
+		}
+
+		section#product-image-gallery {
+			.section-title {
+				margin-bottom: rem-calc(40);
+			}
+
+			.gallery-divider {
+				hr {
+					margin: rem-calc(50) 0 rem-calc(40);
+				}
+			}
+
+			.gallery {
+				.feature-img-container {
+					margin-bottom: rem-calc(10);
+				}
+
+				.ordering-button {
+					padding: rem-calc(12) rem-calc(38);
+					font-size: rem-calc(20);
+					@include button-expand(false);
+				}
+			}
+		}
+	}
+}

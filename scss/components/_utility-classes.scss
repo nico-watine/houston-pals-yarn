@@ -1,0 +1,41 @@
+@mixin align-bottom() {
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+@mixin align-middle() {
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+@mixin align-top() {
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+
+// ------------------------------------
+// |            box-shadow            |
+// ------------------------------------
+
+.box-shadow-1 {
+	box-shadow: $z-1;
+}
+
+.box-shadow-2 {
+	box-shadow: $z-2;
+}
+
+.box-shadow-3 {
+	box-shadow: $z-3;
+}
+
+.box-shadow-4 {
+	box-shadow: $z-4;
+}
+
+.box-shadow-5 {
+	box-shadow: $z-5;
+}
+
+// ---------------------------------------------------------------------- //

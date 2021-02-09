@@ -1,0 +1,95 @@
+
+@import '_small-only.scss';
+@import '_medium.scss';
+@import '_pricing.scss';
+
+
+body#ordering-product-faq {
+	.row.page-intro {
+		padding: rem-calc(20) 0;
+	}
+
+	.row#contact-info {
+		padding-bottom: rem-calc(20);
+
+		.bill-title {
+			margin-bottom: rem-calc(10);
+		}
+
+		a.email {
+			color: #000;
+
+			&:hover {
+				color: #1585cf;
+			}
+		}
+	}
+
+	.video-container {
+		.row {
+			padding: rem-calc(40) 0;
+
+			.video-wrapper {
+				.iframe-wrapper {
+					width: 100%;
+					position: relative;
+					padding-bottom: 56.25%;
+					height: 0;
+					overflow: hidden;
+					border: rem-calc(5) solid #fff;
+					box-shadow: $z-2;
+
+					iframe {
+						width: 100%;
+						height: 100%;
+						top: 0;
+						left: 0;
+						position: absolute;
+					}
+				}
+			}
+		}
+	}
+}
+
+.designAdjustment {
+	@include breakpoint(medium) {
+		.wrapper {
+			min-height: 190px;
+		}
+
+		img {
+			display: block;
+		}
+
+		img,
+		h3 {
+			@include vertical-center;
+		}
+	}
+}
+
+.ordering-pdf {
+	img {
+		border: 2px solid #30659b;
+		max-width: 380px;
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	span {
+		background: $dark-blue;
+		border-radius: rem-calc(5);
+		box-shadow: $z-1;
+		font-size: rem-calc(20);
+		border: rem-calc(2) solid $dark-blue;
+	}
+
+	&:hover {
+		span {
+			background: #fff;
+			color: $dark-blue;
+			box-shadow: $z-2;
+		}
+	}
+}

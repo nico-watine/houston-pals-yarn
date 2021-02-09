@@ -1,0 +1,79 @@
+
+footer {
+	background: #30659b;
+	padding: rem-calc(40) 0;
+	color: #fff;
+
+	ul.menu {
+		display: inline-block;
+
+		li {
+			padding: 0 rem-calc(16);
+
+			a {
+				display: inline-block;
+				@extend .normal;
+				color: #fff;
+				padding: rem-calc(12) 0;
+
+				&:hover {
+					color: #fff;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	@include breakpoint(medium) {
+		ul.menu {
+			margin-bottom: rem-calc(12);
+
+			li {
+				a {
+					padding: rem-calc(8) 0;
+				}
+			}
+		}
+	}
+
+	#contact-deets {
+		a {
+			color: #fff;
+			margin-bottom: rem-calc(12);
+			display: inline-block;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+#snc-link {
+	padding-top: rem-calc(40);
+	display: none;
+	visibility: hidden;
+
+	a {
+		font-size: rem-calc(10);
+		letter-spacing: rem-calc(1.2);
+		color: #888;
+		font-weight: normal;
+
+		span {
+			text-decoration: underline;
+		}
+
+		&:hover {
+			color: #fff;
+			text-decoration: underline;
+		}
+	}
+}
+
+body#index {
+	#snc-link {
+		display: block;
+		visibility: visible;
+	}
+}

@@ -1,13 +1,7 @@
-Reference a partial like so:
-{{> header}}
-{{> navigation}}
-{{> footer}}
+Example files for this 'partials' folder ::
 
-Existing google-tracking-id.html ::
-Insert unique code in UA-XXXXX-X
-Typical best practice is to include this partial before closing body tag (or beginning of js tags)
+header.html
+navigation.html
+footer.html
 
-scripts-tag.html
-<script>
-	// in-page-scripts
-</script>
+IOW blocks within a page template

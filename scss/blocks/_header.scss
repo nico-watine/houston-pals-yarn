@@ -1,0 +1,128 @@
+
+
+.header {
+	.row {
+		background: $off-white url('#{$url}/img/assets/accents/dog/top-left.png') no-repeat left top;
+		background-size: contain;
+		width: 100%;
+	}
+
+	@include breakpoint(medium) {
+		height: rem-calc(249);
+		position: relative;
+
+		.row {
+			box-shadow: $z-1;
+			background-size: initial;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 10;
+			height: 100%;
+		}
+	}
+
+	@include breakpoint(large) {
+		height: rem-calc(180);
+	}
+
+	aside {
+		position: absolute;
+		top: rem-calc(10);
+		right: rem-calc(30);
+	}
+
+	.logo {
+		padding: rem-calc(16) rem-calc(8);
+
+		img {
+			max-width: rem-calc(370);
+			width: 100%;
+		}
+	}
+
+	.title-bar {
+		background: $dark-blue;
+
+		a {
+			color: #fff;
+			float: left;
+			line-height: 1;
+			margin-right: rem-calc(28);
+
+			.icon {
+				font-size: rem-calc(28);
+			}
+		}
+	}
+
+	@include breakpoint(large) {
+		.nav-wrapper {
+			padding-left: 0;
+		}
+	}
+
+	ul.menu {
+		li {
+			a {
+				line-height: 1.4;
+				@extend .heading;
+				color: #000;
+				font-size: rem-calc(18);
+				padding: rem-calc(10);
+				width: 100%;
+
+				&:hover {
+					background: $light-green;
+					color: #fff;
+				}
+			}
+
+			a.active {
+				background: $light-green;
+				color: #fff;
+			}
+		}
+
+		@include breakpoint(medium) {
+			li {
+				a {
+					border-radius: rem-calc(12) rem-calc(12) 0 0;
+					height: rem-calc(70);
+					line-height: rem-calc(50);
+
+					&:hover {
+						background: $dark-blue;
+					}
+				}
+
+				a.active {
+					&:hover {
+						background: $light-green;
+					}
+				}
+			}
+
+			li#op-faq {
+				a {
+					width: rem-calc(150);
+					line-height: rem-calc(25);
+				}
+			}
+
+			li#about-pals {
+				a {
+					width: rem-calc(130);
+				}
+			}
+		}
+
+		@include breakpoint(large) {
+			li {
+				a {
+					border-radius: rem-calc(12);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,108 @@
+.build-a-brace#build-a-brace {
+	.content {
+		background: #fff url('#{$url}/img/assets/bg/paw/paw.png') 105% -30px no-repeat;
+		background-size: 480px 513px;
+	}
+	.page-intro {
+		.cell {
+			padding-top: 40px;
+			padding-bottom: 40px;
+
+			.prose {
+				max-width: rem-calc(470);
+			}
+		}
+	}
+}
+
+
+.product-builder-dog-model {
+	max-width: 770px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+
+	.img-layer {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.product-builder-accordion {
+	.accordion-item.is-active {
+		.accordion-title {
+			color: #fff;
+			background: $dark-blue;
+		}
+	}
+
+	.option-cell {
+		padding: 0 rem-calc(5);
+
+		span {
+			max-width: 200px;
+			display: inline-block;
+			cursor: pointer;
+			padding: 5px;
+
+			p {
+				margin: rem-calc(8) 0;
+			}
+
+			&:hover {
+				box-shadow: 0 1px 4px 0 #30659b;
+				border-radius: 5px;
+
+				p {
+					color: #1468a0;
+				}
+			}
+		}
+
+		span.active {
+			box-shadow: 0 1px 4px 0 #30659b;
+			border-radius: 5px;
+
+			p {
+				color: #1468a0;
+			}
+		}
+	}
+
+	#coat-color {
+		img {
+			max-width: 100px;
+			width: 100%;
+		}
+	}
+
+	#affected-limb {
+		img {
+			border: 5px solid #000;
+		}
+	}
+
+	#injury-solution {
+		img {
+			border: 5px solid $dark-blue;
+		}
+	}
+
+	.sample-cell {
+		padding: 0 rem-calc(5);
+
+		img {
+			width: 200px;
+			margin-bottom: 16px;
+		}
+	}
+}
+
+@include breakpoint(small only) {
+	.product-builder-accordion {
+		.accordion-content {
+			padding: rem-calc(16) rem-calc(8);
+		}
+	}
+}

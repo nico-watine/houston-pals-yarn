@@ -1,350 +1,201 @@
 ---
 url: /
-title:
-description:
-og-title:
-og-description:
-og-image:
+title: Pet Artificial Limbs & Supports
+description: Custom made orthotics and prosthetics devices for your pet in Houston, TX, created by Bill Bickley
+og-title: Pet Artificial Limbs & Supports | Houston PALS
+og-description: Custom made orthotics and prosthetics devices for your pet in Houston, TX, created by Bill Bickley
+og-image: /img/assets/og/1/og-image-1.jpg
 body-id: index
 body-class: index
+layout: index
 ---
-<br>
+<div class="index-splash">
+	<header class="header header-scrim">
+		<div class="expanded row grid-x">
+			<aside class="show-for-medium">
+				<a id="email" href="mailto:bill@houstonpals.com" class="normal">bill@houstonPALS.com</a>
+				<a href="https://www.facebook.com/pages/Pet-Artificial-Limbs-and-Supports/547234815361977" target="_blank"><img class="svg-icon svg" src="/img/assets/social-icons/facebook.svg" alt="Houston PALS Facebook Page Link"></a>
+			</aside>
+			<div class="large-5 cell text-center logo">
+				<a href="/">
+					<img class="hide-for-large" src="{{ cdn }}/img/assets/logo/logo.png" srcset="{{ cdn }}/img/assets/logo/logo@2x.png 2x" alt="Houston PALS Logo">
+					<img src="/img/assets/logo/logo-white-2.png" alt="" class="show-for-large">
+				</a>
+			</div>
 
-<div class="row">
-	<div class="columns">
-		<h1>Welcome to Foundation for Sites</h1>
-	</div>
-</div>
-
-<br>
-
-<div class="grid-container">
-	<div class="grid-x">
-		<div class="cell callout">
-			<div class="grid-x grid-padding-x">
-				<div class="cell">
-					<h3>We&rsquo;re stoked you want to try Foundation!</h3>
-					<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-					<p>Once you've exhausted the fun in this document, you should check out:</p>
+			<div class="cell title-bar show-for-small-only text-right" data-responsive-toggle="top-bar-nav" data-hide-for="medium">
+				<a href="mailto:bill@houstonpals.com"><i class="icon email"></i></a>
+				<a href="tel:832-444-8384"><i class="icon phone"></i></a>
+				<div class="align-self-right cell auto">
+					<div class="title-bar-title">MENU</div>
+					<button class="menu-icon" type="button" data-toggle="top-bar-nav"></button>
 				</div>
 			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-				</div>
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://get.foundation/building-blocks/">Foundation Building Blocks</a><br />A Library of Foundation UI Components. These HTML, CSS and JS snippets can be plugged into any Foundation project to build faster. Enjoy!</p>
-				</div>
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://foundation.discourse.group/">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x align-center">
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-				</div>
-				<div class="cell medium-4">
-					<p><a target="_blank" href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+
+			<div class="nav-wrapper large-auto align-middle cell grid-x">
+				<div class="cell align-middle">
+					<nav class="custom-dropdown-pane dropdown-pane text-center" data-dropdown id="top-bar-nav">
+						<ul class="vertical medium-horizontal menu align-center">
+							<li><a href="/products.php">Products</a></li>
+							<li id="op-faq"><a href="/ordering-product-faq.php">Ordering + Product FAQ</a></li>
+							<li><a href="https://blog.houstonpals.com/">Blog</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1>Typography Styles</h1>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1>h1 - An Equal Amount Of Text</h1>
-		<code><span class="show-for-small-only">32px</span><span class="show-for-medium">50px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h2>h2 - An Equal Amount Of Text</h2>
-		<code><span class="show-for-small-only">26px</span><span class="show-for-medium">38px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h3>h3 - An Equal Amount Of Text</h3>
-		<code><span class="show-for-small-only">22px</span><span class="show-for-medium">28px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h4>h4 - An Equal Amount Of Text</h4>
-		<code><span class="show-for-small-only">18px</span><span class="show-for-medium">21px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h5>h5 - An Equal Amount Of Text</h5>
-		<code><span class="show-for-small-only">16px</span><span class="show-for-medium">16px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<h6>h6 - An Equal Amount Of Text</h6>
-		<code><span class="show-for-small-only">14px</span><span class="show-for-medium">14px</span>/1.4 +8</code>
-		<br>
-		<br>
-		<p>p - An Equal Amount Of Text</p>
-		<code>16px/1.6 +16</code>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1><small><code>box-shadow</code></small> Styles</h1>
-	</div>
-</div>
-
-<hr>
-
-<div class="row">
-	<div class="large-3 columns">
-		<h4>The values for these classes are inspired by Material Design paper shadow.</h4>
-		<br>
-		<br>
-	</div>
-	<div class="large-9 columns text-center">
-		<div class="row">
-			<div class="medium-4 columns">
-				<div class="py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;"><small><code>border</code></small> added for display</p>
-					<code>box-shadow: 0;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-1 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-1</code></small></p>
-					<code>box-shadow: $z-1;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-2 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-2</code></small></p>
-					<code>box-shadow: $z-2;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-		</div>
-		<div class="row">
-			<div class="medium-4 columns">
-				<div class="box-shadow-3 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-3</code></small></p>
-					<code>box-shadow: $z-3;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-4 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-4</code></small></p>
-					<code>box-shadow: $z-4;</code>
-				</div>
-				<br>
-				<br>
-			</div>
-			<div class="medium-4 columns">
-				<div class="box-shadow-5 py-16" style="border-radius: 4px; border: 1px solid #e6e6e6;">
-					<p style="margin-bottom: 12px;">Class: <small><code>.box-shadow-5</code></small></p>
-					<code>box-shadow: $z-5;</code>
-				</div>
-				<br>
-				<br>
+	</header>
+	<div class="hero-wrapper grid-x grid-padding-x">
+		<div class="cell medium-shrink large-6 pt-16">
+			<div class="prose">
+				<h1 class="title-font">Custom made orthotics and prosthetics for any&nbsp;pet.</h1>
+				<h3 style="line-height: 1.4;" class="show-for-medium body-font">Just like the animal kingdom, our services are not limited to dogs.</h3>
 			</div>
 		</div>
 	</div>
-</div>
-
-<br>
-<br>
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1><strong>XY Grid</strong> Layout Example</h1>
-		<h5>Here&rsquo;s your basic grid:</h5>
-		<br>
-	</div>
-</div>
-
-<div class="grid-container">
-	<div class="grid-x grid-padding-x">
+	<div class="grid-x align-middle dog-background show-for-large">
 		<div class="cell">
-			<div class="grid-x grid-padding-x">
-				<div class="cell">
-					<div class="primary callout">
-						<p><strong>This is a twelve cell section in a grid-x</strong> (<code>.grid-x &gt; .cell</code>)<strong>.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="medium-6 cell">
-					<div class="primary callout">
-						<p>Six cell (<code>.medium-6.cell</code>)</p>
-					</div>
-				</div>
-				<div class="medium-6 cell">
-					<div class="primary callout">
-						<p>Six cell (<code>.medium-6.cell</code>)</p>
-					</div>
-				</div>
-			</div>
-			<div class="grid-x grid-padding-x">
-				<div class="small-4 cell">
-					<div class="primary callout">
-						<p>Four cell (<code>.small-4.cell</code>)</p>
-					</div>
-				</div>
-				<div class="small-4 cell">
-					<div class="primary callout">
-						<p>Four cell (<code>.small-4.cell</code>)</p>
-					</div>
-				</div>
-				<div class="small-4 cell">
-					<div class="primary callout">
-						<p>Four cell (<code>.small-4.cell</code>)</p>
-					</div>
-				</div>
-			</div>
+			<img src="/img/index/splash/will/will-hero.jpg" alt="">
 		</div>
 	</div>
 </div>
-
-<br>
-<hr>
-
-<div class="row">
-	<div class="columns">
-		<h1><strong>Float Grid</strong> Layout Example <small>(Legacy)</small></h1>
-		<h5>Here&rsquo;s your basic grid:</h5>
-		<br>
-	</div>
-</div>
-
-<div class="row">
-	<div class="columns">
-		<div class="primary callout">
-			<p><strong>This is a twelve column section in a row</strong> (<code>.row &gt; .columns</code>)<strong>.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="medium-6 columns">
-		<div class="primary callout">
-			<p>Six columns (<code>.medium-6.columns</code>)</p>
-		</div>
-	</div>
-	<div class="medium-6 columns">
-		<div class="primary callout">
-			<p>Six columns (<code>.medium-6.columns</code>)</p>
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="small-4 columns">
-		<div class="primary callout">
-			<p>Four columns (<code>.small-4.columns</code>)</p>
-		</div>
-	</div>
-	<div class="small-4 columns">
-		<div class="primary callout">
-			<p>Four columns (<code>.small-4.columns</code>)</p>
-		</div>
-	</div>
-	<div class="small-4 columns">
-		<div class="primary callout">
-			<p>Four columns (<code>.small-4.columns</code>)</p>
-		</div>
-	</div>
-</div>
-
-<br>
-<hr>
-<br>
-<br>
-
-<div class="row">
-	<div class="medium-8 columns">
-
-	<h5>We bet you&rsquo;ll need a form somewhere:</h5>
-
-	<form>
+<section class="puppy-bowl-section">
+	<div class="section-interior py-40">
 		<div class="row">
-			<div class="columns">
-				<label>Input Label</label>
-				<input type="text" placeholder="large-12.columns" />
+			<div class="columns text-center">
+				<div class="mb-32 event-announcement display-inline-block" data-magellan data-threshold="0">
+					<h5 class="m-0 h5 text-line-through text-uppercase">Upcoming</h5>
+					<h4 class="m-0 h4"><a href="#meet-will-section">Updated Feb 4!</a></h4>
+				</div>
+				<h3 class="event-title color-white"><strong>Animal Planet’s <br><span style="letter-spacing: 1px;" class="h2 heading uppercase">Puppy Bowl 15</span></strong></h3>
+				<h4 class="event-date announcement-date color-white"><strong>February 3, 2019</strong></h4>
+				<br>
 			</div>
 		</div>
-		<div class="row">
-			<div class="medium-4 columns">
-				<label>Input Label</label>
-				<input type="text" placeholder="large-4.columns" />
-			</div>
-			<div class="medium-4 columns">
-				<label>Input Label</label>
-				<input type="text" placeholder="large-4.columns" />
-			</div>
-			<div class="medium-4 columns">
-				<div class="row collapse">
-					<label>Input Label</label>
-					<div class="input-group">
-						<input class="input-group-field" type="text" placeholder="input-group" />
-						<span class="input-group-label">.com</span>
-					</div>
+		<div class="grid-container">
+			<div class="grid-x grid-padding-x align-middle text-center puppy-bowl-logo-row">
+				<div class="medium-4 cell">
+					<hr>
+				</div>
+				<div class="medium-4 cell">
+					<img class="logo" src="/img/index/puppy-bowl/puppy-bowl-logo.png" alt="">
+				</div>
+				<div class="medium-4 cell">
+					<hr>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="columns">
-				<label>Select Box</label>
-				<select>
-					<option value="husker">Husker</option>
-					<option value="starbuck">Starbuck</option>
-					<option value="hotdog">Hot Dog</option>
-					<option value="apollo">Apollo</option>
-				</select>
-			</div>
-		</div>
-		<div class="row">
-			<div class="medium-6 columns">
-				<label>Choose Your Favorite</label>
-				<input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-				<input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-			</div>
-			<div class="medium-6 columns">
-				<label>Check these out</label>
-				<input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-				<input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-			</div>
-		</div>
-		<div class="row">
-			<div class="columns">
-				<label>Textarea Label</label>
-				<textarea placeholder="small-12.columns"></textarea>
-			</div>
-		</div>
-	</form>
 	</div>
-
-	<div class="medium-4 columns">
-		<h5>Try one of these buttons:</h5>
-		<p><a href="#" class="small button">Simple Button</a><br/>
-		<a href="#" class="medium success button">Success Btn</a><br/>
-		<a href="#" class="medium alert button">Alert Btn</a><br/>
-		<a href="#" class="medium secondary button">Secondary Btn</a></p>
-		<div class="callout">
-			<h5>So many components, girl!</h5>
-			<p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-			<a target="_blank" href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
+</section>
+<section class="meet-will-section py-40" id="meet-will-section" data-magellan-target="meet-will-section">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x align-middle">
+			<div class="article-cell medium-7 cell medium-order-2">
+				<article class="meet-will-article p-16">
+					<h2 style="margin-bottom: 24px;" class="article-title heading">Meet Will</h2>
+					<div class="update-snippet mb-24">
+						<h3 class="h3 body-font"><span>Update 2/4</span></h3>
+						<p class="p"><strong>Thank you for a successful Puppy&nbsp;Bowl. <br>Will was voted Underdog of&nbsp;the&nbsp;game!</strong></p>
+					</div>
+					<p>We partnered with <strong>Doodle Rock Rescue</strong> in Dallas to rehabilitate Will and help him find a new home. On February 3, watch Will and his pals play in <strong>Animal Planet’s Puppy Bowl</strong> to spread adoption awareness.</p>
+					<p class="mb-32">Learn about Will’s inspiring story as he journeyed towards health and home.</p>
+					<a href="/puppy-bowl-2019-journey" class="button m-0 article-page-link display-inline-block heading py-16 px-40">Read It</a>
+				</article>
+			</div>
+			<div class="img-cell text-center medium-5 cell medium-text-right medium-order-1">
+				<img class="doggo" src="/img/index/meet-will/puppy-bowl-meet-will.jpg" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="contact-strip-section py-40">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x align-center">
+			<div class="auto shrink cell medium-text-right">
+				<a href="mailto:bill@houstonpals.com" class="contact-link mb-16"><strong>bill@houstonpals.com</strong></a>
+			</div>
+				<div class="auto shrink cell">
+				<a href="" class="contact-link"><strong>(832) 444-8384</strong></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="block-banner">
+	<div class="grid-container fluid full">
+		<div class="grid-x">
+			<a class="build-a-brace-block block-link grid-x align-middle cell medium-6" href="/pals-canine-design-center.php">
+				<div class="content">
+					<div class="prose text-center medium-text-left">
+						<h3 class="black">PALS Canine Design Center</h3>
+						<p class="black h5 margin-0">Visualize your dog’s injury solution</p>
+					</div>
+				</div>
+				<div class="image-scrim">&nbsp;</div>
+				<img src="/img/index/build-a-brace-block/build-a-brace.jpg" alt="Build-A-Brace link">
+			</a>
+			<a class="common-questions-block block-link cell medium-6 grid-x align-middle" href="/ordering-product-faq.php">
+				<div class="content">
+					<div class="prose text-center medium-text-left">
+						<h3 class="white">Ordering Your Pet’s Device</h3>
+						<p class="white h5 margin-0">Ordering &amp; Product FAQ</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+<div itemscope itemtype="http://schema.org/Person">
+	<div class="row" id="intro">
+		<div class="medium-5 columns text-center" id="profile-pic">
+			<h1 class="title show-for-small-only"><span>About</span> <span itemprop="affiliation">PALS</span></h1>
+			<img src="{{ cdn }}/img/about/bill-default.jpg" itemprop="image" alt="Photo of Bill Bickley">
+		</div>
+		<div class="medium-7 large-6 columns end">
+			<div class="prose">
+				<h1 class="title show-for-medium"><span>About</span> <span itemprop="affiliation">PALS</span></h1>
+				<h2>In 2013, <span itemprop="name">Bill Bickley</span>, a <span itemprop="jobTitle">licensed Orthotist and Prosthetist</span> with over 20 years of experience, founded <span itemprop="worksFor">Pet Artificial Limbs and Supports (PALS)</span> in <span itemprop="workLocation">Houston, Texas</span>.</h2>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="story">
+		<div class="medium-10 medium-offset-1 large-8 large-offset-2 end columns">
+			<p>Bill wished to apply his twenty years of experience in custom design and fabrication, and his knowledge of specialized materials, to the world of animal medicine. Orthotics (supportive devices) &amp; Prosthetics (artificial limbs) are improving the lives of injured animals. These devices, when made by an experienced practitioner and individually designed for your animal's needs, can have a significant impact on both surgical outcome and post injury rehabilitation. Being a graduate of <span itemprop="affiliation"><span itemprop="alumniOf">Northwestern University</span>'s Orthotic &amp; Prosthetic program</span>, and having worked with both the rehabilitation of adults and children, Bill brings a vast amount of experience to the field of animal medicine.</p>
 		</div>
 	</div>
 </div>
+<section class="contact-strip-section py-40">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x align-center">
+			<div class="auto shrink cell medium-text-right">
+				<a href="mailto:bill@houstonpals.com" class="contact-link mb-16"><strong>bill@houstonpals.com</strong></a>
+			</div>
+				<div class="auto shrink cell">
+				<a href="" class="contact-link"><strong>(832) 444-8384</strong></a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="go-fund-me-section">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x align-center">
+			<div class="large-6 cell">
+				<div class="pals-promo-video">
+					<div class="responsive-embed widescreen m-0">
+						<iframe src="https://www.youtube.com/embed/V23RiCcGAHY?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="caption px-8 py-16 mb-40 medium-text-center" style="background: #30659B; border-radius: 0 0 12px 12px;">
+						<h4 class="body-font color-white m-0"><strong>PALS Success Stories Promo Video</strong></h4>
+					</div>
+				</div>
+			</div>
+			<div class="large-shrink cell">
+				<article class="go-fund-me-article">
+					<p class="mb-24"><span class="lead"><strong>Bill has a passion for helping animals get back on their feet,</strong></span> and the advanced injury solutions that he provides are no walk in the park. He never wants the price of his services, however, to prevent animals from having their days in the park again.</p>
+					<p class="mb-24"><span class="lead heading">Kindly consider</span> a contribution to PALS.</p>
+					<p class="mb-40" style="max-width: 420px;">Bill puts contributions towards the <strong>research and development of more cost effective solutions</strong> of providing orthotic and prosthetic veterinary care. These advancements help him to provide tailored treatment solutions at a <strong>lower price for all clients.</strong></p>
+					<a href="https://www.gofundme.com/houston-pals-friendly-funds?sharetype=teams&member=1590398&rcid=r01-154878082231-90cbe03bdfe04209&pc=ot_co_campmgmt_w" target="_blank" class="button m-0 go-fund-me-page-link"><img src="/img/index/go-fund-me/go-fund-me-logo.png" style="width: 165px;" title="GoFundMe page link" alt=""></a>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,41 @@
+
+
+main {
+	background-image: linear-gradient(0deg, rgba(255,255,255,.00) 65%, rgba(255,255,255,.00) 65%, $light-green 100%);
+
+	.content-wrapper {
+		padding: 0 rem-calc(10);
+
+		.content {
+			@extend .row;
+			background: #fff url('#{$url}/img/assets/bg/paw/paw-shadow.png') right bottom no-repeat;
+			background-size: 480px 513px;
+
+			@include breakpoint(480 down) {
+				background-size: contain;
+			}
+
+			box-shadow: $z-1;
+			border: 0 solid $dark-blue;
+			border-width: 0 rem-calc(3);
+			padding: rem-calc(12) 0;
+
+			.row {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.content.no-paw {
+			background: #fff;
+		}
+
+		@include breakpoint(medium) {
+			padding: 0 rem-calc(20);
+		}
+
+		@include breakpoint(large) {
+			padding: 0 rem-calc(30);
+		}
+	}
+}

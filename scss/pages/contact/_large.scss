@@ -1,0 +1,37 @@
+
+@include breakpoint(large) {
+	body#contact {
+		#contact-info-panel {
+			height: rem-calc(600);
+			padding: 0 rem-calc(5) 0 0;
+
+			.prose {
+				background: #fff;
+				box-shadow: $z-1;
+				height: rem-calc(600);
+				width: 100%;
+				padding: rem-calc(60) rem-calc(30) 0;
+
+				h1 {
+					text-align: left;
+				}
+
+				h2 {
+					line-height: 1.2;
+				}
+			}
+		}
+
+		#interactive-map {
+			height: rem-calc(600);
+			position: relative;
+
+			.click-overlay {
+				width: 100%;
+				min-height: rem-calc(600);
+				position: absolute;
+				top: 0;
+			}
+		}
+	}
+}

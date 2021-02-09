@@ -1,0 +1,9 @@
+
+
+@include breakpoint(medium) {
+	body#ordering-product-faq {
+		.row.page-intro {
+			padding: rem-calc(40) 0;
+		}
+	}
+}

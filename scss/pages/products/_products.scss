@@ -1,0 +1,151 @@
+
+@import '_small.scss';
+@import '_medium.scss';
+@import '_large.scss';
+@import '_debotech-thank-you.scss';
+
+body#products {
+	section.wide#product-definitions {
+		width: 100%;
+		background: $dark-blue;
+		border: rem-calc(3) solid $dark-blue;
+		padding: rem-calc(20) 0;
+
+		.product-block {
+			background: $off-white;
+			padding: rem-calc(20);
+
+			.product-image {
+				text-align: center;
+
+				img {
+					max-width: 260px;
+					width: 100%;
+					height: auto;
+					margin-bottom: rem-calc(18);
+				}
+			}
+
+			.ordering-button {
+				background: $dark-blue;
+				border-radius: rem-calc(5);
+				box-shadow: $z-1;
+				font-size: rem-calc(20);
+				border: rem-calc(2) solid $dark-blue;
+
+				&:hover {
+					background: #fff;
+					color: $dark-blue;
+					box-shadow: $z-2;
+				}
+			}
+		}
+	}
+
+	section#animal-diversity {
+		padding: rem-calc(20) 0;
+
+		img {
+			max-width: 260px;
+			width: 100%;
+			height: auto;
+			margin-bottom: rem-calc(18);
+		}
+	}
+
+	section#product-image-gallery {
+		padding: rem-calc(30) 0;
+		background: #f7f7f7;
+		border: rem-calc(3) solid #30659b;
+		box-shadow: 0 rem-calc(1) rem-calc(4) 0 rgba(0,0,0,.37);
+
+		.gallery-divider {
+			hr {
+				margin: rem-calc(50) 0;
+				border-bottom: rem-calc(2) solid $dark-blue;
+			}
+		}
+
+		.gallery {
+			.gallery-title {
+				margin-bottom: rem-calc(16);
+			}
+
+			.feature-img-container {
+				padding-top: 75%;
+				position: relative;
+
+				img#orthotics-feature-img,
+				img#prosthetics-feature-img {
+					max-width: 100%;
+					max-height: 100%;
+					position: absolute;
+					left: 0;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					margin: auto;
+				}
+			}
+
+			.thumbnail-container {
+				img {
+					margin-bottom: 16px;
+					@include thumbnail;
+					border: 3px solid $dark-blue;
+					cursor: pointer;
+				}
+			}
+
+			.button-row {
+				margin-top: rem-calc(20);
+			}
+
+			.ordering-button {
+				background: $dark-blue;
+				border-radius: rem-calc(5);
+				box-shadow: $z-1;
+				border: rem-calc(2) solid $dark-blue;
+
+
+				&:hover {
+					background: #fff;
+					color: $dark-blue;
+					box-shadow: $z-2;
+				}
+			}
+		}
+	}
+}
+
+.modal-button {
+	background: $dark-blue;
+	border-radius: rem-calc(5);
+	box-shadow: $z-1;
+	padding: rem-calc(20) rem-calc(40);
+	border: rem-calc(2) solid $dark-blue;
+
+	&:hover {
+		background: #fff;
+		color: $dark-blue;
+		box-shadow: $z-2;
+	}
+}
+
+.build-a-brace-callout {
+	max-width: rem-calc(500);
+	margin: 0 auto;
+	padding: rem-calc(24);
+	background: #fff;
+	border: 3px solid #30659b;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+	border-radius: 5px;
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
