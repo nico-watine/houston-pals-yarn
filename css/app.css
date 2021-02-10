@@ -8964,6 +8964,12 @@ ol.list-upper-roman {
 .text-decoration-none {
   text-decoration: none !important; }
 
+.td-underline {
+  text-decoration: underline; }
+
+.hover-td-none:hover {
+  text-decoration: none; }
+
 .title {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
@@ -8990,12 +8996,6 @@ a#colorful-name-hover:hover span.green {
 a#colorful-name-hover:hover span.blue {
   color: #fff;
   background: #30659b; }
-
-.td-underline {
-  text-decoration: underline; }
-
-.hover-td-none:hover {
-  text-decoration: none; }
 
 img.frame {
   border: 0.1875rem solid #30659b;
