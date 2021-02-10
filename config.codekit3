@@ -29,8 +29,16 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/.yarnclean",
+		"oF": 1
+		},
+	"/_ignores/01-29-notes.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/01-29-notes.txt",
 		"oF": 0
 		},
 	"/_ignores/autoprefixer-browser-string.txt": {
@@ -41,12 +49,157 @@
 		"oAP": "/_ignores/autoprefixer-browser-string.txt",
 		"oF": 0
 		},
+	"/_ignores/google-site-verification.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/google-site-verification.html",
+		"oF": 0
+		},
+	"/_ignores/google-tracking-snippet-notes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/google-tracking-snippet-notes.html",
+		"oF": 0
+		},
+	"/_ignores/houston-pals-yarn.sublime-project": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/houston-pals-yarn.sublime-project",
+		"oF": 0
+		},
+	"/_ignores/houston-pals-yarn.sublime-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/houston-pals-yarn.sublime-workspace",
+		"oF": 0
+		},
+	"/_ignores/hpals-online-presence-urls.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/hpals-online-presence-urls.txt",
+		"oF": 0
+		},
 	"/_ignores/htaccess/force-https.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_ignores/htaccess/force-https.txt",
+		"oF": 0
+		},
+	"/_ignores/json-schema.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/json-schema.html",
+		"oF": 0
+		},
+	"/_ignores/notes.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/notes.txt",
+		"oF": 0
+		},
+	"/_ignores/PDF/get_adobe_reader.gif": {
+		"ft": 4194304,
+		"iS": 2126,
+		"oA": 1,
+		"oAP": "/_ignores/PDF/get_adobe_reader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_ignores/PDF/PALS_Worksheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/PDF/PALS_Worksheet.pdf",
+		"oF": 0
+		},
+	"/_ignores/PDF/PALS_Worksheet_back.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/PDF/PALS_Worksheet_back.pdf",
+		"oF": 0
+		},
+	"/_ignores/PDF/PALS_Worksheet_back_small.png": {
+		"ft": 32768,
+		"iS": 48295,
+		"oA": 1,
+		"oAP": "/_ignores/PDF/PALS_Worksheet_back_small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_ignores/PDF/PALS_Worksheet_front.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/PDF/PALS_Worksheet_front.pdf",
+		"oF": 0
+		},
+	"/_ignores/PDF/PALS_Worksheet_front_small.png": {
+		"ft": 32768,
+		"iS": 45078,
+		"oA": 1,
+		"oAP": "/_ignores/PDF/PALS_Worksheet_front_small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_ignores/PDF/PALS_Worksheet_small.png": {
+		"ft": 32768,
+		"iS": 47523,
+		"oA": 1,
+		"oAP": "/_ignores/PDF/PALS_Worksheet_small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_ignores/site-transition-pages/about-pals.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/site-transition-pages/about-pals.php",
+		"oF": 0
+		},
+	"/_ignores/site-transition-pages/blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/site-transition-pages/blog.php",
+		"oF": 0
+		},
+	"/_ignores/site-transition-pages/contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/site-transition-pages/contact.php",
 		"oF": 0
 		},
 	"/assets/.htaccess": {
@@ -2556,13 +2709,21 @@
 		"oAP": "/build/src",
 		"oF": 0
 		},
-	"/yarn.lock": {
+	"/TODO": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/yarn.lock",
+		"oAP": "/TODO",
 		"oF": 0
+		},
+	"/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/yarn.lock",
+		"oF": 1
 		}
 	},
 "hooks": [
