@@ -2,6 +2,7 @@
 // |            Padding            |
 // ---------------------------------
 
+.padding-0,
 .p-0 {
 	padding: 0;
 }
@@ -42,6 +43,22 @@
 // |            padding-top            |
 // -------------------------------------
 
+.paddingTop-20 {
+	padding-top: rem-calc(20);
+}
+
+.paddingTop-20.x2 {
+	padding-top: rem-calc(40);
+}
+
+.paddingTop-20 {
+	padding-top: rem-calc(20);
+}
+
+.paddingTop-20.x2 {
+	padding-top: rem-calc(40);
+}
+
 .pt-0 {
 	padding-top: 0;
 }
@@ -81,6 +98,18 @@
 // ----------------------------------------
 // |            padding-bottom            |
 // ----------------------------------------
+
+.paddingBottom-20 {
+	padding-bottom: rem-calc(20);
+}
+
+.paddingBottom-20.x2 {
+	padding-bottom: rem-calc(40);
+}
+
+.pb-40 {
+	padding-bottom: rem-calc(40);
+}
 
 .pb-0 {
 	padding-bottom: 0;
@@ -202,6 +231,9 @@
 // |            padding left & right            |
 // ----------------------------------------------
 
+.p-x {
+	padding: 0 rem-calc(16) !important;
+}
 .px-0 {
 	padding-left: 0;
 	padding-right: 0;
@@ -250,6 +282,10 @@
 // ----------------------------------------------
 // |            padding top & bottom            |
 // ----------------------------------------------
+
+.p-y {
+	padding: rem-calc(16) 0 !important;
+}
 
 .py-0 {
 	padding-top: 0;
