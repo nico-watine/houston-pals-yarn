@@ -8951,6 +8951,13 @@ ol.list-upper-roman {
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important; }
 
+.white,
+.color-white {
+  color: #fefefe; }
+
+.black {
+  color: #0a0a0a; }
+
 .text-decoration-none {
   text-decoration: none !important; }
 
@@ -8983,13 +8990,6 @@ a#colorful-name-hover:hover span.green {
 a#colorful-name-hover:hover span.blue {
   color: #fff;
   background: #30659b; }
-
-.white,
-.color-white {
-  color: #fefefe; }
-
-.black {
-  color: #0a0a0a; }
 
 address {
   font-style: normal; }
