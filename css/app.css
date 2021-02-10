@@ -8914,6 +8914,9 @@ ol.list-upper-roman {
 .font-weight-light {
   font-weight: 300 !important; }
 
+.normal, footer ul.menu li a {
+  font-weight: normal; }
+
 .font-weight-400,
 .font-weight-regular,
 .font-weight-normal {
@@ -8980,9 +8983,6 @@ ol.list-upper-roman {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal; }
 
-.normal, footer ul.menu li a {
-  font-weight: normal; }
-
 a#colorful-name-hover:hover span.green {
   color: #fff;
   background: #98cd68; }
@@ -8990,9 +8990,6 @@ a#colorful-name-hover:hover span.green {
 a#colorful-name-hover:hover span.blue {
   color: #fff;
   background: #30659b; }
-
-address {
-  font-style: normal; }
 
 .td-underline {
   text-decoration: underline; }
