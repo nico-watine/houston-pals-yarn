@@ -49,10 +49,205 @@
 		"oAP": "/_ignores/htaccess/force-https.txt",
 		"oF": 0
 		},
-	"/assets": {
-		"ft": 65536,
+	"/assets/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/.htaccess",
+		"oF": 0
+		},
+	"/assets/apple-touch-icon-120x120-precomposed.png": {
+		"ft": 32768,
+		"iS": 4544,
 		"oA": 1,
-		"oAP": "/build/assets",
+		"oAP": "/assets/apple-touch-icon-120x120-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/apple-touch-icon-152x152-precomposed.png": {
+		"ft": 32768,
+		"iS": 5522,
+		"oA": 1,
+		"oAP": "/assets/apple-touch-icon-152x152-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/apple-touch-icon-180x180-precomposed.png": {
+		"ft": 32768,
+		"iS": 6598,
+		"oA": 1,
+		"oAP": "/assets/apple-touch-icon-180x180-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/apple-touch-icon-76x76-precomposed.png": {
+		"ft": 32768,
+		"iS": 2833,
+		"oA": 1,
+		"oAP": "/assets/apple-touch-icon-76x76-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 6598,
+		"oA": 1,
+		"oAP": "/assets/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/favicon.ico",
+		"oF": 0
+		},
+	"/assets/favicon.png": {
+		"ft": 32768,
+		"iS": 1682,
+		"oA": 1,
+		"oAP": "/assets/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/googlea536b0ce9879dae9.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/googlea536b0ce9879dae9.html",
+		"oF": 0
+		},
+	"/assets/humans.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/humans.txt",
+		"oF": 0
+		},
+	"/assets/pdf/front-limb-injury.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/front-limb-injury.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/front-limb-injury.png": {
+		"ft": 32768,
+		"iS": 56808,
+		"oA": 1,
+		"oAP": "/assets/pdf/front-limb-injury.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/pdf/rear-limb-injury.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pdf/rear-limb-injury.pdf",
+		"oF": 0
+		},
+	"/assets/pdf/rear-limb-injury.png": {
+		"ft": 32768,
+		"iS": 60307,
+		"oA": 1,
+		"oAP": "/assets/pdf/rear-limb-injury.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/php/autoVer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/php/autoVer.php",
+		"oF": 0
+		},
+	"/assets/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/robots.txt",
+		"oF": 0
+		},
+	"/assets/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/sitemap.xml",
+		"oF": 0
+		},
+	"/assets/tile-wide.png": {
+		"ft": 32768,
+		"iS": 12965,
+		"oA": 1,
+		"oAP": "/assets/tile-wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/tile.png": {
+		"ft": 32768,
+		"iS": 25299,
+		"oA": 1,
+		"oAP": "/assets/tile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/touch-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 7032,
+		"oA": 1,
+		"oAP": "/assets/touch-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/wp-blog/.gitkeep": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/wp-blog/.gitkeep",
 		"oF": 0
 		},
 	"/blog/css/blog.css": {
@@ -188,14 +383,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"/Icon\r": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Icon\r",
-		"oF": 0
 		},
 	"/img/about/bill-default.jpg": {
 		"ft": 16384,
@@ -2394,7 +2581,7 @@
 	"creationDate": 502296054,
 	"displayValue": "houston-pals-yarn",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray",
+	"iconImageName": "/assets/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -4505,7 +4692,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/storage/framework/sessions, /src, _logs, logs, log, /dist, _cache, cache, /assets, /node_modules, /js/vendor",
+	"skippedFoldersString": "/storage/framework/sessions,/src,/node_modules,_logs,logs,log,/js/vendor,/dist,_cache,cache",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
