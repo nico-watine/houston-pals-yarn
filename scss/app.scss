@@ -69,6 +69,9 @@
 
 @import 'var/_var.scss';
 
+// Elements
+@import 'elements/_elements.scss';
+
 // BLOCKS ::
 @import 'blocks/_body.scss';
 @import 'blocks/_header.scss';
@@ -82,10 +85,10 @@
 @import 'components/_utility-classes.scss';
 @import 'components/_image-styles.scss';
 @import 'components/_metrics.scss';
-@import 'components/_extras.scss';
+// @import 'components/_extras.scss';
 @import 'components/_padding-margin.scss';
-@import 'components/_height-width.scss';
-@import 'components/_flexbox-utilities.scss';
+// @import 'components/_height-width.scss';
+// @import 'components/_flexbox-utilities.scss';
 @import 'components/_media.scss';
 
 // PAGES ::
