@@ -2300,6 +2300,58 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/scss/elements/media/_img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_img.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/elements/media/_media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_media.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/elements/media/_svg-icon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_svg-icon.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/elements/media/_youtube-embed.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/elements/css/_youtube-embed.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/elements/typography/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,

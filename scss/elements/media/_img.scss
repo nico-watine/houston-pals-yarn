@@ -1,0 +1,9 @@
+img.frame {
+	border: rem-calc(3) solid $dark-blue;
+	box-shadow: $z-2;
+	margin-bottom: rem-calc(8);
+}
+
+img.circle {
+	border-radius: 100%;
+}
