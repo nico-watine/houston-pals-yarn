@@ -72,26 +72,8 @@
 // Elements
 @import 'elements/_elements.scss';
 
-// BLOCKS ::
-@import 'blocks/_body.scss';
-@import 'blocks/_header.scss';
-@import 'blocks/_header-scrim.scss';
-@import 'blocks/_nav.scss';
-@import 'blocks/_main.scss';
-@import 'blocks/_footer.scss';
+// Blocks
+@import "blocks/_blocks.scss";
 
-// PAGES ::
-@import 'pages/index/_index.scss';
-@import 'pages/products/_products.scss';
-@import 'pages/ordering-product-faq/_ordering-product-faq.scss';
-@import 'pages/about/_about.scss';
-@import 'pages/build-a-brace/_build-a-brace.scss';
-@import 'pages/puppy-bowl-2019-journey/_puppy-bowl-2019-journey.scss';
-
-
-
-// ---------------------------------------------------------
-// |            Nulled & Not Imported Currently            |
-// ---------------------------------------------------------
-// @import "pages/contact/_contact.scss";
-// @import 'pages/coming-soon/_coming-soon.scss';
+// Pages
+@import 'pages/_pages.scss';
