@@ -8881,6 +8881,18 @@ ol.list-upper-roman {
           animation-delay: 700ms !important; }
 
 @font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/raleway/raleway-v19-latin-regular.woff2") format("woff2"), url("/fonts/raleway/raleway-v19-latin-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/raleway/raleway-v19-latin-700.woff2") format("woff2"), url("/fonts/raleway/raleway-v19-latin-700.woff") format("woff"); }
+
+@font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
