@@ -5,7 +5,6 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700,900");
 @media print, screen and (min-width: 40em) {
   .reveal.large, .reveal.small, .reveal.tiny, .reveal {
     right: auto;
@@ -8880,6 +8879,18 @@ ol.list-upper-roman {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/open-sans/open-sans-v18-latin-regular.woff2") format("woff2"), url("/fonts/open-sans/open-sans-v18-latin-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/open-sans/open-sans-v18-latin-700.woff2") format("woff2"), url("/fonts/open-sans/open-sans-v18-latin-700.woff") format("woff"); }
 
 @font-face {
   font-family: 'hpals';
